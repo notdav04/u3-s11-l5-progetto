@@ -1,7 +1,7 @@
 import { CHANGE_SONG } from "../actions";
 
 const initialstate = {
-  playerSong: {}
+  playerSong: undefined
 };
 
 const PlayerReducer = (state = initialstate, action) => {
